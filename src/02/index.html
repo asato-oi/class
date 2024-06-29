@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02</title>
+  <script type="module" src="./index.ts"></script>
+  <link rel="stylesheet" href="../style/base.css">
+</head>
+
+<body>
+  <h1>02</h1>
+
+  <button class="m-button js-dialogButton" type="button" data-dialog-target="js-dialog-1">モーダルを開く</button>
+
+  <dialog id="js-dialog-1" class="m-dialog js-dialog">
+    <div class="m-dialog__inner">
+      <div class="m-dialog__head">
+        <button type="button" class="m-dialog__closeButton js-dialog__closeButton" autofocus>閉じる</button>
+        <h2 class="m-dialog__heading">見出し</h2>
+      </div>
+
+      <div class="m-dialog__body">
+        <p class="m-dialog__txt">テキストテキストテキストテキスト</p>
+      </div>
+
+      <div class="m-dialog__foot">
+        <button class="m-button js-dialog__closeButton" type="button">閉じる</button>
+      </div>
+    </div>
+  </dialog>
+
+</body>
+
+</html>
